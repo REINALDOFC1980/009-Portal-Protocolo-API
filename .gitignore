@@ -1,0 +1,43 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# Build
+**/bin/
+**/obj/
+
+# Arquivos de usuário
+*.user
+*.csproj.user
+*.suo
+
+# Logs
+*.log
+
+# Publicação
+publish/
+
+# Testes
+TestResults/
+coverage/
+
+# Frontend (futuro)
+node_modules/
+dist/
+.output/
+
+# Configurações específicas de ambiente
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/appsettings.Local.json
+
+# Uploads gerados pela aplicação
+**/Uploads/
+**/uploads/
+
+# Pacotes e arquivos compactados
+*.zip
+
+# Pastas antigas de publicação
+portal-api-*/
+**/publish-api/
